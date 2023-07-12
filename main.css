@@ -1,0 +1,31 @@
+body {
+	font-family: "Helvetica Neue", "Helvetica", sans-serif;
+}
+section {
+	min-height: 100vh;
+	display: grid;
+	place-content: center;
+	position: sticky;
+	top: 0;
+	background-color: white;
+	border: .25em solid currentColor;
+}
+h2 {
+	font-size: 1.5rem;
+	text-align: left;
+	margin-bottom: 0.5em;
+	font-feature-settings: 'tnum'
+}
+marquee {
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    padding-block: 0.5rem;
+}
+p {
+	max-width: 65ch;
+}
